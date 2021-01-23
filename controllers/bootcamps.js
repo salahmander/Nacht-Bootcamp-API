@@ -28,7 +28,8 @@ exports.getBootcamps = asyncHandler(async (req, res, next) => {
   );
 
   // Finding resource
-  query = Bootcamp.find(JSON.parse(queryStr)).populate('courses');
+  // To limit the courses field pass in object to .populate with the fields you want
+  query = Bootcamp.find(JSON.parse(queryStr)).populate("courses");
 
   // Select fields
   if (req.query.select) {
@@ -39,7 +40,7 @@ exports.getBootcamps = asyncHandler(async (req, res, next) => {
   // Sort
   if (req.query.sort) {
     const sortBy = req.query.sort.split(",").join(" ");
-    query = query.sort(sortBy)
+    query = query.sort(sortBy);
   } else {
     query = query.sort("-createdAt");
   }
@@ -100,7 +101,7 @@ exports.updateBootcamp = asyncHandler(async (req, res, next) => {
 // @route DELETE /api/v1/bootcamps/:id
 // @access Private
 exports.deleteBootcamp = asyncHandler(async (req, res, next) => {
-  const bootcamp = await Bootcamp.findByIdAndUpdate(req.params.id);
+  const bootcamp = await Bootcamp.findById(req.params.id);
 
   // It's a formatted object ID and not in database
   if (!bootcamp) {
@@ -108,6 +109,8 @@ exports.deleteBootcamp = asyncHandler(async (req, res, next) => {
       new ErrorResponse(`Bootcamp not found with id of ${res.params.id}`, 404)
     );
   }
+
+  bootcamp.remove();
 
   res.status(200).json({ sucess: true, data: {} });
 });
