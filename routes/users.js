@@ -13,6 +13,6 @@ router.use(authorize("admin"));
 
 router.route("/").get(advancedResults(User), getUsers);
 
-router.route("/:id").get(getUser);
+router.route("/:id").get(getUser).put(updateUser);
 
 module.exports = router;
