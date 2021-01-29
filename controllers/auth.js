@@ -4,9 +4,9 @@ const asyncHandler = require("../middleware/async");
 const sendEmail = require("../utils/sendEmail");
 const User = require("../models/User");
 
-// @desc  Get Register user
-// @route POST /api/auth/register
-// @access Public
+// @desc      Get Register user
+// @route     POST /api/auth/register
+// @access    Public
 
 exports.register = asyncHandler(async (req, res, next) => {
   const { name, email, password, role } = req.body;
@@ -22,9 +22,9 @@ exports.register = asyncHandler(async (req, res, next) => {
   sendTokenResponse(user, 200, res);
 });
 
-// @desc  Login User
-// @route POST /api/auth/register
-// @access Public
+// @desc      Login User
+// @route     POST /api/auth/register
+// @access    Public
 
 exports.login = asyncHandler(async (req, res, next) => {
   const { email, password } = req.body;
