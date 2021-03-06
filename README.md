@@ -1,2 +1,2 @@
-# DevCampers-API
-Backend API for DevCamper application, which is a bootcamp directory website
+# Nacht Bootcamp 
+Backend API for Nacht Bootcamp application, which is a bootcamp directory website
