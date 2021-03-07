@@ -8,6 +8,12 @@ Deployed with Heroku.
 
 Documentation created using postman and docgen.
 
+## Demo
+
+The API is live at [nacht-bootcamp](https://nacht-boocamp.herokuapp.com/)
+
+Extensive documentation with examples [here](https://documenter.getpostman.com/view/6010540/Tz5jfgVG)
+
 
 ## Install Dependencies
 
@@ -36,9 +42,3 @@ node seeder -d
 # Import all data
 node seeder -i
 ```
-
-## Demo
-
-The API is live at [nacht-bootcamp](https://nacht-boocamp.herokuapp.com/)
-
-Extensive documentation with examples [here](https://documenter.getpostman.com/view/6010540/Tz5jfgVG)
