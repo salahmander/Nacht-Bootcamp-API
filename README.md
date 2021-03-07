@@ -32,4 +32,5 @@ node seeder -i
 ## Demo
 
 The API is live at [nacht-bootcamp](https://nacht-boocamp.herokuapp.com/)
+
 Extensive documentation with examples [here](https://documenter.getpostman.com/view/6010540/Tz5jfgVG)
