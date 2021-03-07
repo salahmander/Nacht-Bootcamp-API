@@ -1,5 +1,11 @@
 # Nacht Bootcamp 
-Backend API for Nacht Bootcamp application, which is a bootcamp directory website
+Nacht Bootcamp (Night Bootcamp) is a backend API project, a bootcamp directory app. Allowing users to search for development bootcamps or allow publishers to post new bootcamps to share with aspiring engineers. The purpose of this project was to further advance my knowledge and master Node.js, express and mongodb. What I’ve learned from this project was how to construct a real world backend RESTful API, solidify my understanding of the HTTP fundamentals, use advanced mongoose queries, implement json web tokens/ cookies authentication, take advantage of the express & mongoose middleware, gain a better understanding of API security and learn how to create documentation using postman. 
+
+### Tech Stack
+Developed using Node.js, Express and MongoDB (mongoose).
+Deployed with Heroku.
+Documentation created using postman and docgen.
+
 
 ## Install Dependencies
 
