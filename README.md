@@ -3,7 +3,9 @@ Nacht Bootcamp (Night Bootcamp) is a backend API project, a bootcamp directory a
 
 ### Tech Stack
 Developed using Node.js, Express and MongoDB (mongoose).
+
 Deployed with Heroku.
+
 Documentation created using postman and docgen.
 
 
