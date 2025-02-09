@@ -1,44 +1,32 @@
-# Nacht Bootcamp 
-Nacht Bootcamp (Night Bootcamp) is a backend API project, a bootcamp directory app. Allowing users to search for development bootcamps or allow publishers to post new bootcamps to share with aspiring engineers. The purpose of this project was to further advance my knowledge and master Node.js, express and mongodb. What I’ve learned from this project was how to construct a real world backend RESTful API, solidify my understanding of the HTTP fundamentals, use advanced mongoose queries, implement json web tokens/ cookies authentication, take advantage of the express & mongoose middleware, gain a better understanding of API security and learn how to create documentation using postman. 
+# 🌙 Nacht Bootcamp [Archived]
 
-### Tech Stack
-Developed using Node.js, Express and MongoDB (mongoose).
+Nacht Bootcamp is a **backend API project** designed as a **bootcamp directory app**. It allows users to **search for development bootcamps** or enables publishers to **post new bootcamps** for aspiring engineers.  
 
-Deployed with Heroku.
+This project was built to deepen my expertise in **Node.js, Express, and MongoDB** while mastering **RESTful API development**.  
 
-Documentation created using postman and docgen.
+## 🎯 What I Learned  
 
-## Demo
+Through this project, I enhanced my skills in:  
+✅ Building a **real-world backend RESTful API**  
+✅ Strengthening **HTTP fundamentals**  
+✅ Using **advanced Mongoose queries**  
+✅ Implementing **JWT & cookie-based authentication**  
+✅ Leveraging **Express & Mongoose middleware**  
+✅ Understanding **API security best practices**  
+✅ Creating **API documentation with Postman & docgen**  
 
-The API is live at [nacht-bootcamp](https://nacht-boocamp.herokuapp.com/)
+## 🛠️ Tech Stack  
 
-Extensive documentation with examples [here](https://documenter.getpostman.com/view/6010540/Tz5jfgVG)
+- **Backend:** Node.js, Express, MongoDB (Mongoose)  
+- **Authentication:** JSON Web Tokens (JWT), Cookies  
+- **API Security:** Middleware, Authentication & Authorization  
+- **Deployment:** Heroku  
+- **Documentation:** Postman, docgen  
 
+## Documentation  
 
-## Install Dependencies
+🔹 **API documentation:** [Postman Docs](https://documenter.getpostman.com/view/6010540/Tz5jfgVG)  
 
-```
-npm install
-```
+## ⚠️ Status: Archived  
 
-## Run App
-
-```
-# Run in dev mode
-npm run dev
-
-# Run in prod mode
-npm start
-```
-
-## Database Seeder
-
-To seed the database with users, bootcamps, courses and reviews with data from the "\_data" folder, run
-
-```
-# Destroy all data
-node seeder -d
-
-# Import all data
-node seeder -i
-```
+This project is no longer maintained, but feel free to explore the code. 
